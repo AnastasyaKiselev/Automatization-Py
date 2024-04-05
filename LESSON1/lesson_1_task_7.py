@@ -1,0 +1,13 @@
+def song(num):
+    print (num, end='')
+song(8)
+song(8)
+song(0)
+song(0)
+song(5)
+song(5)
+song(5)
+song(3)
+song(5)
+song(3)
+song(5)
