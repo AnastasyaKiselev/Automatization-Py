@@ -18,7 +18,7 @@ button = driver.find_element(By.CSS_SELECTOR, 'button[onclick="addElement()"]').
 
 count = []
 
-value = driver.find_elements(By.CSS_SELECTOR, ".added-manually")
+value = driver.find_elements(By.CSS_SELECTOR, 'button[onclick="deleteElement()"]')
 for e in value:
     print(e.text)
     count.append(e.text)

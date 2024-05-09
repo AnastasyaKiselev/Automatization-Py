@@ -1,7 +1,7 @@
-Локатор логотипа (html-елемент, содержащий в себе значок и слово "авиасейлс") - <span.s__PcdUOp87I1e0rHSKIZrv>
-Локатор поля Откуда - <.s__hC7iNZewgvf8fGTsGplA.s__n9EimsKcoimG2V6o0kus.s__UaXug5EzRLeYsUGa9bJ1[wfd-id="id1"]>
-Локатор поля Куда -   <.s__hC7iNZewgvf8fGTsGplA.s__n9EimsKcoimG2V6o0kus.s__UaXug5EzRLeYsUGa9bJ1[wfd-id="id2")>
-Локатор поля Когда - <.s__iUCZVK_7pftNPmX5zeoS.s__IwBVpRef_1GpuUeZuKUL.s__QOH8_RMDyCm4BxeyrqOt.s__OIqaFwbhkZg2cIA5d0zJ.s__yEM_StZVCY12Z9yCKcq4>
-Локатор поля Обратно - <.s__iUCZVK_7pftNPmX5zeoS.s__IwBVpRef_1GpuUeZuKUL.s__qO2qUuaHHBMsAgKGqoWL.s__OIqaFwbhkZg2cIA5d0zJ>
-Локатор чек-бокса "Открыть Ostrovok.ru в новой вкладке" - <.s__XM8ZO5vgPE3EvHQrwWsZ>
-Локатор кнопки Найти билеты - <.s__pYAhaCkOP9mPTxKVg5Qi.s__cQ6neS4ccCunOu9Ydn0k.s__tkvB9amX28GXeWxPcrad.s__eEClvAD7BnPrQbwBW5zC.s__p0epgEYgBbKyjc8MfJPw.s__VtKkhjd_g3s0MVyvRx1g>
+Локатор логотипа (html-елемент, содержащий в себе значок и слово "авиасейлс") - <[data-test-id="logo"]>
+Локатор поля Откуда - <[wfd-id="id1"]>
+Локатор поля Куда -   <[wfd-id="id2"]>
+Локатор поля Когда - <[data-test-id="start-date-field"]>
+Локатор поля Обратно - <[data-test-id="end-date-field"]>
+Локатор чек-бокса "Открыть Ostrovok.ru в новой вкладке" - <path[d="M13.88 1.951l-8 8a1.14 1.14 0 01-1.616 0L.835 6.523a1.142 1.142 0 111.616-1.616l2.62 2.62L12.265.335a1.142 1.142 0 111.616 1.616z"]>
+Локатор кнопки Найти билеты - <[data-test-id="form-submit"]>
