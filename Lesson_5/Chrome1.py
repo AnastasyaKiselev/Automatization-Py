@@ -10,19 +10,16 @@ driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install())
 driver.get(" http://the-internet.herokuapp.com/add_remove_elements/")
 
 
-button = driver.find_element(By.CSS_SELECTOR, 'button[onclick="addElement()"]').click()
-button = driver.find_element(By.CSS_SELECTOR, 'button[onclick="addElement()"]').click()
-button = driver.find_element(By.CSS_SELECTOR, 'button[onclick="addElement()"]').click()
-button = driver.find_element(By.CSS_SELECTOR, 'button[onclick="addElement()"]').click()
-button = driver.find_element(By.CSS_SELECTOR, 'button[onclick="addElement()"]').click()
+button = driver.find_element(By.CSS_SELECTOR, 'button').click()
+button = driver.find_element(By.CSS_SELECTOR, 'button').click()
+button = driver.find_element(By.CSS_SELECTOR, 'button').click()
+button = driver.find_element(By.CSS_SELECTOR, 'button').click()
+button = driver.find_element(By.CSS_SELECTOR, 'button').click()
 
 count = []
-
-value = driver.find_elements(By.CSS_SELECTOR, 'button[onclick="deleteElement()"]')
+value = driver.find_elements(By.CSS_SELECTOR, 'button.added-manually')
 for e in value:
-    print(e.text)
     count.append(e.text)
 
-
-print(count)    
+print(count)      
 print (len(count))
