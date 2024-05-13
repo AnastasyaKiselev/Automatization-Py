@@ -8,8 +8,6 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
 
 
-driver = webdriver.Firefox
-
 driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
 
 

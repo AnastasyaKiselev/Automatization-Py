@@ -8,8 +8,6 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
 
 
-driver = webdriver.Firefox
-
 driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
 
 
@@ -18,7 +16,7 @@ driver.get(" http://the-internet.herokuapp.com/add_remove_elements/")
 for button in range(0, 5):
     button = driver.find_element(By.CSS_SELECTOR, 'button').click()
 
-    
+
 count = []
 value = driver.find_elements(By.CSS_SELECTOR, 'button.added-manually')
 for e in value:
