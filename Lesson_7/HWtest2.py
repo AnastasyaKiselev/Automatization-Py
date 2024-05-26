@@ -8,7 +8,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from Main2 import Main2
 
-
 def test_HW2():
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
     main=Main2(driver)

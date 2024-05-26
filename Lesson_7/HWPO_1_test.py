@@ -8,7 +8,6 @@ from selenium.webdriver.support import expected_conditions as EC
 import pytest
 from time import sleep
 from Form1 import Form1
-
 def test_1():
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
     form = Form1(driver)
