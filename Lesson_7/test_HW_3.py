@@ -20,15 +20,3 @@ def test_total_score3():
     cart_chekcout.CheckoutInfo()
     total = TotalLabel3(driver)
     total.TotalLabel()
-
-
-
-
-
-
-    
-
-
-
-
-
