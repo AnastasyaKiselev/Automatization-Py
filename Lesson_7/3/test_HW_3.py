@@ -7,6 +7,7 @@ from Login3 import Login3
 from MainPage3 import Main3
 from CartCheckout3 import CartCheckout3
 from TotalLabel3 import TotalLabel3
+from time import sleep
 
 def test_total_score3():
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
@@ -18,16 +19,6 @@ def test_total_score3():
     cart_chekcout.Cart()
     cart_chekcout.CheckoutInfo()
     total = TotalLabel3(driver)
-    total.TotalLabel()
-
-
-
-
-
-
-    
-
-
-
-
-
+    total.TotalLabel()   
+    total_label = driver.find_element(By.CSS_SELECTOR, '.summary_total_label').text
+    assert total_label == 'Total: $58.29'
