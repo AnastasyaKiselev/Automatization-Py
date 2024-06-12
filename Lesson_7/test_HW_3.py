@@ -8,7 +8,6 @@ from MainPage3 import Main3
 from CartCheckout3 import CartCheckout3
 from TotalLabel3 import TotalLabel3
 
-
 def test_total_score3():
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
     login = Login3(driver)

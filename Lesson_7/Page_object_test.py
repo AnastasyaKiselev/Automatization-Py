@@ -13,7 +13,6 @@ cookie = {
     'value': '1'
 }
 
-
 def test_card():
     list=[]
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
