@@ -14,7 +14,8 @@ def test_calculator():
     main.set_time(45)
     main.clicking()
     main.waiting_result()
-
+    answer =  driver.find_element(By.CSS_SELECTOR, '.screen' ).text   
+    assert answer == '15'
 
 
 
